@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RefandOutContainer.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.AsyncBasics.cs" />
+    <Compile Include="2.Async_Advanced.cs" />
+    <Compile Include="3.Methods_ref_outs.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties\1.MethodsRevision.cs" />
+    <Compile Include="Properties\2.MethodsAdvanced.cs" />
+    <Compile Include="Properties\3.Methods_Ref_Out.cs" />
+    <Compile Include="Properties\4.Synccall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
